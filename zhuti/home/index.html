@@ -12,77 +12,65 @@
             background: #F2F2F2;
             overflow: hidden;
         }
-
         * {
             margin: 0;
             padding: 0
         }
-
         body {
             font: 14px "微软雅黑", "FontAwesome", "Arial Narrow", HELVETICA;
             -webkit-text-size-adjust: 100%;
         }
-
         li {
             list-style: none
         }
-
         a {
             text-decoration: none;
         }
-
         /* navMenu */
         .navMenubox {
             width: 100%;
             height: 100vh;
-            background: #1c2229;
+            background: rgb(50, 64, 87);
             margin: 0 auto;
 
             overflow: hidden;
         }
-
         .navMenu-top {
             padding: 10px;
             color: #fff;
             border-bottom: 1px solid rgba(255, 255, 255, .1)
         }
-
         .navMenu>li {
             display: block;
             margin: 0;
             padding: 0;
             border: 0px;
         }
-
         .navMenu>li>a {
             display: block;
             overflow: hidden;
             padding-left: 0px;
-            line-height: 40px;
+            line-height: 50px;
             color: #ABB1B7;
             transition: all .3s;
             position: relative;
             text-decoration: none;
             font-size: 17px;
-            border-top: 1px solid #222932;
-            border-bottom: 2px solid #191e24;
+            border-top: 1px solid rgb(50, 64, 87);
+            border-bottom: 2px solidrgb(50, 64, 87);
         }
-
         .navMenu>li:nth-of-type(1)>a {
             border-top: 1px solid transparent;
         }
-
         .navMenu>li:last-child>a {
             border-bottom: 1px solid transparent;
         }
-
         .navMenu>li>a>i {
             font-size: 20px;
             float: left;
             font-style: normal;
             margin: 0 5px;
         }
-
         .navMenu li a .arrow:before {
             display: block;
             float: right;
@@ -96,7 +84,6 @@
             font-weight: 300;
             text-shadow: none;
         }
-
         .navMenu li a .arrow.open:before {
             float: right;
             margin-top: 1px;
@@ -109,59 +96,49 @@
             font-weight: 300;
             text-shadow: none;
         }
-
         .navMenu>li>a.active,
         .navMenu>li>a:hover {
             color: #FFF;
-            background: #12181b;
+            /* background: #12181b; */
         }
-
         .navMenu>li>ul.sub-menu,
         .navMenu>li>ul.sub-menu>li>ul.sub-menu {
             display: none;
             list-style: none;
             clear: both;
-            margin: 8px 0px 0px 10px;
             padding-bottom: 5px;
+            background-color: #1f2d3d;
         }
-
         /* .navMenu>li.active>ul.sub-menu,
         .navMenu>li>ul.sub-menu>li.active>ul.sub-menu {} */
-
         .navMenu>li>ul.sub-menu li {
             background: none;
             margin: 0px;
             padding: 0px;
         }
-
         .navMenu>li>ul.sub-menu li>a {
             display: block;
             font-size: 16px;
-            line-height: 36px;
+            line-height: 40px;
             padding-left: 20px;
             color: #ABB1B7;
             clear: both;
         }
-
         .navMenu>li>ul.sub-menu li>a.active,
         .navMenu>li>ul.sub-menu li>a:hover,
         .navMenu>li>ul.sub-menu>li.active>a {
             color: #FFF;
             background: #12181b;
         }
-
         .icon_1:before {
             content: "\f0ac";
         }
-
         .icon_2:before {
             content: "\f0ac";
         }
-
         .icon_3:before {
             content: "\f0ac";
         }
-
         /*---------------------*/
     </style>
 </head>
@@ -171,14 +148,14 @@
         <div id="slimtest1">
 
             <ul class="navMenu">
-                <li> <a href="../components/qqq.html" target="v1" class="afinve"> <i class="icon_1"></i> <span class="">首页</span></a>
+                <li> <a href="../components/home.html" target="v1" class="afinve"> <i class="icon_1"></i> <span class="">首页</span></a>
 
                 </li>
                 <li> <a href="javascript:;" class="afinve"> <i class="icon_2"></i> <span class="nav-text">数据管理</span>
                         <span class="arrow"></span> </a>
                     <ul class="sub-menu">
-                        <li><a href="../components/www.html" target="v1"><span>用户列表</span></a></li>
-                        <li><a href="javascript" target="v1"><span>商家列表</span></a></li>
+                        <li><a href="../components/fengye.html" target="v1"><span>用户列表</span></a></li>
+                        <li><a href="../components/sadfsa.html" target="v1"><span>商家列表</span></a></li>
                         <li><a href="javascript:;" target="v1"><span>视频列表</span></a></li>
                         <li><a href="javascript:;" target="v1"><span>订单列表</span></a></li>
                         <li><a href="javascript:;" target="v1"><span>管理员列表</span></a></li>
