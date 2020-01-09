@@ -17,3 +17,18 @@ function ajax(url, type, params, successfn, errorfn) {
       }
   });
 }
+
+
+
+// 调用
+
+// var url = "https://elm.cangdu.org/v1/users/list"; // 接口    
+// var params = { // 参数
+//     "offset": 0,
+//     "limit": 20
+// }
+// ajax(url, "GET", params, function (res) {
+//     console.log(res);
+// }),function(err){
+//     console.log(err)
+// }
